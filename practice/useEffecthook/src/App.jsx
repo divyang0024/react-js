@@ -4,11 +4,13 @@ function App() {
   let [counter, setCounter] = useState(0)
 
 let addVal=()=>{
-setCounter(counter+1)
+setCounter(prevCounter=>prevCounter+1)
+setCounter(prevCounter=>prevCounter+1)
 }
 
 let subtractVal=()=>{
-setCounter(counter-1)
+setCounter(prevCounter=>prevCounter-1)
+setCounter(prevCounter=>prevCounter-1)
 }
 
   return (
