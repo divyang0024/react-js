@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #container {
+    @apply bg-[#9BB0C1];
+    @apply min-h-screen;
+    @apply flex justify-center items-center;
+  }
+  #mainContainer {
+    @apply bg-[#EADFB4];
+    @apply shadow-lg shadow-black;
+    @apply p-8 md:p-16;
+    @apply rounded-3xl;
+    @apply flex flex-col;
+    @apply text-xl;
+    @apply font-semibold;
+    @apply m-12 md:m-0;
+    @apply border-4 border-[#51829B];
+  }
+  #inputField {
+    @apply text-center;
+    @apply bg-[#F6995C];
+    @apply p-2 md:p-4;
+    @apply rounded-xl;
+    @apply text-white;
+    @apply text-2xl;
+    /* @apply max-w-full; */
+    @apply mb-6;
+    @apply border-4 border-[#9BB0C1];
+  }
+  #toggleContainer {
+    @apply flex flex-col;
+    @apply flex flex-col gap-4;
+    @apply justify-center;
+  }
+  #copyButton {
+    @apply mt-6;
+    @apply p-2 md:p-4;
+    @apply bg-[#F6995C];
+    @apply text-white;
+    /* @apply w-full; */
+    @apply rounded-xl;
+    @apply focus:bg-[#51829B] focus:border-[#F6995C] focus:text-[#F6995C] transition-all;
+    @apply border-4 border-[#9BB0C1];
+  }
+}
