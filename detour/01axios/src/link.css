@@ -1,0 +1,14 @@
+.active {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 200, 0);
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgb(200, 200, 200);
+  margin: 1em;
+  padding: 5px;
+  border: solid black 1px;
+  color: rgb(200, 0, 0);
+}
